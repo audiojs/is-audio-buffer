@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node --harmony test.js"
   },
+  "files": ["index.js"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/audio-lab/is-audio-buffer.git"
