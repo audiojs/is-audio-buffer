@@ -1,12 +1,14 @@
 {
   "name": "is-audio-buffer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check whether an object is instance of AudioBuffer",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony test.js"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/audio-lab/is-audio-buffer.git"
