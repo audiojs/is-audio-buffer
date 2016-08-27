@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/audio-lab/is-audio-buffer.git"
+    "url": "git+https://github.com/audiojs/is-audio-buffer.git"
   },
   "keywords": [
     "audio",
@@ -24,9 +24,9 @@
   "author": "DY <dfcreative@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/audio-lab/is-audio-buffer/issues"
+    "url": "https://github.com/audiojs/is-audio-buffer/issues"
   },
-  "homepage": "https://github.com/audio-lab/is-audio-buffer#readme",
+  "homepage": "https://github.com/audiojs/is-audio-buffer#readme",
   "devDependencies": {
     "audio-buffer": "^2.1.3",
     "audio-context": "^0.1.0",
