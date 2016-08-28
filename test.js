@@ -1,3 +1,5 @@
+'use strict';
+
 var assert = require('assert');
 var isAudioBuffer = require('./');
 var ABuf = require('audio-buffer');

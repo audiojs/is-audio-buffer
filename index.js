@@ -1,6 +1,7 @@
 /**
  * @module  is-audio-buffer
  */
+'use strict';
 
 module.exports = function isAudioBuffer (buffer) {
 	//the guess is duck-typing
