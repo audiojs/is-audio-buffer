@@ -14,6 +14,7 @@
     "url": "git+https://github.com/audiojs/is-audio-buffer.git"
   },
   "keywords": [
+    "audiojs",
     "audio",
     "webaudio",
     "webaudioapi",
