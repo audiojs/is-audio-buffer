@@ -31,5 +31,8 @@
     "audiobuffer": "^0.2.0",
     "is-browser": "^2.0.1",
     "web-audio-api": "^0.2.2"
+  },
+  "dependencies": {
+    "audio-buffer-list": "^1.2.1"
   }
 }
