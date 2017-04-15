@@ -1,5 +1,7 @@
 # is-audio-buffer [![Build Status](https://travis-ci.org/audiojs/is-audio-buffer.svg?branch=master)](https://travis-ci.org/audiojs/is-audio-buffer) [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/audiojs/is-audio-buffer.svg)](https://greenkeeper.io/)
+
 Check whether an object is instance of [AudioBuffer](http://webaudio.github.io/web-audio-api/#AudioBuffer).
 
 ## Usage
