@@ -33,6 +33,6 @@
     "web-audio-api": "^0.2.2"
   },
   "dependencies": {
-    "audio-buffer-list": "^1.2.1"
+    "audio-buffer-list": "^1.5.2"
   }
 }
