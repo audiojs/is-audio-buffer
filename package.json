@@ -1,6 +1,6 @@
 {
   "name": "is-audio-buffer",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Check whether an object is instance of AudioBuffer",
   "main": "index.js",
   "scripts": {
