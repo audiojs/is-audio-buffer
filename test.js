@@ -4,13 +4,13 @@ var assert = require('assert');
 var isAudioBuffer = require('./');
 var ABuf = require('audio-buffer');
 var isBrowser = require('is-browser');
-var ctx = require('audio-context');
+var ctx = require('audio-context')();
 var ABuf2 = require('audiobuffer');
 var ABuf3 = require('web-audio-api/lib/AudioBuffer');
 var ABuf4 = require('audio-buffer-list')
 
 //Known buffers
-assert(isAudioBuffer(new ABuf(1, 200, 44100)));
+assert(isAudioBuffer(new ABuf(ctx, {length: 200})));
 isBrowser && assert(isAudioBuffer(ctx.createBuffer(1, 100, 44100)));
 assert(isAudioBuffer(new ABuf2(1, 200, 44100)));
 assert(isAudioBuffer(new ABuf3(1, 200, 44100)));
