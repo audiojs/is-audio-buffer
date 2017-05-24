@@ -14,7 +14,7 @@ assert(isAudioBuffer(new ABuf(ctx, {length: 200})));
 isBrowser && assert(isAudioBuffer(ctx.createBuffer(1, 100, 44100)));
 assert(isAudioBuffer(new ABuf2(1, 200, 44100)));
 assert(isAudioBuffer(new ABuf3(1, 200, 44100)));
-assert(isAudioBuffer(new ABuf4()));
+assert(!isAudioBuffer(new ABuf4()));
 
 //False objects
 assert(!isAudioBuffer(new Buffer(2)));
