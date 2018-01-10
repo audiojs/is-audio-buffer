@@ -6,6 +6,10 @@
 module.exports = function isAudioBuffer (buffer) {
 	//the guess is duck-typing
 	return buffer != null
-	&& buffer.sampleRate !== undefined //swims like AudioBuffer
+	&& typeof buffer.length === 'number'
+	&& typeof buffer.sampleRate === 'number' //swims like AudioBuffer
 	&& typeof buffer.getChannelData === 'function' //quacks like AudioBuffer
+	// && buffer.copyToChannel
+	// && buffer.copyFromChannel
+	&& typeof buffer.duration === 'number'
 };
